@@ -60,9 +60,12 @@ div#formulario{
     margin-bottom: 15px;
 }
 span.material-symbols-outlined{
-    color: rgb(55, 55, 55);
+    color: rgb(235, 222, 231);
 }
 label{
     font-size: 0.8em;
 }
-
+form > input[type=submit]{
+    display: block;
+    background-color: #5f2c82;
+}

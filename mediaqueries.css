@@ -44,5 +44,9 @@
         padding-bottom:10px;
         font-size: 2em;
     }
+    form > input[type="submit"]{
+        display: block;
+        background-color: aquamarine;
+    }
     
 }
