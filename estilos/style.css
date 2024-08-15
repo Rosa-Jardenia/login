@@ -61,22 +61,27 @@ div#formulario{
 }
 div.campo > span.material-symbols-outlined{
     color: rgb(252, 251, 251);
-    font-size: 6em;
+    font-size: 2em;
     padding: 5px;
-    width: 40px;
+   /* padding-left: 3px;*/
+    width: 35px;
     margin-bottom: 7px;
+    
     
 }
 div.campo > input{
     border:  #49a09d;
     font-size: 1em;
-    width: 89.7%;
+    width: calc(100% -50px);
     height: 100%;
-    transform: translateY(-15px);
+    transform: translateY(-11px);
     border-radius: 8px;
     background-color: #49a09d;
     border: 0px;
     padding: 4px;
+}
+div.campo >input:hover{
+    background-color: white;
 }
 label{
     font-size: 0.8em;
