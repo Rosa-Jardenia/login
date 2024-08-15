@@ -59,8 +59,24 @@ div#formulario{
     text-align: center;
     margin-bottom: 15px;
 }
-span.material-symbols-outlined{
-    color: rgb(55, 55, 55);
+div.campo > span.material-symbols-outlined{
+    color: rgb(252, 251, 251);
+    font-size: 6em;
+    padding: 5px;
+    width: 40px;
+    margin-bottom: 7px;
+    
+}
+div.campo > input{
+    border:  #49a09d;
+    font-size: 1em;
+    width: 89.7%;
+    height: 100%;
+    transform: translateY(-15px);
+    border-radius: 8px;
+    background-color: #49a09d;
+    border: 0px;
+    padding: 4px;
 }
 label{
     font-size: 0.8em;
@@ -74,7 +90,7 @@ form > input[type="submit"]{
     text-align: center;
     border: none;
     font-size: 1em;
-    border-radius: 5px;
+    border-radius: 8px;
     margin-top: 5px;
     cursor: pointer;
     margin-bottom: 5px;
@@ -90,7 +106,7 @@ form > div#email {
     height: 40px;
     background-color: rgb(252, 254, 255);
     border: 1px solid  rgb(36, 107, 189);
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 5px;
    
     
@@ -114,12 +130,12 @@ form > div#email:hover {
     background-color: rgb(86, 249, 249);
 }
 div.campo{
-    background-color: #d39bf9;
+    background-color: #5f2c82 ;
     display: block;
     width: 100%;
     height: 40px;
-    border-radius: 5px;
-    margin: 5px 0px;
+    border-radius: 8px;
+    margin: 8px 0px;
 }
 div.campo > label{
     display: none;
